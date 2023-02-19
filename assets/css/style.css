@@ -491,3 +491,9 @@ and (max-width: 480px) {
 .viewTransactionDetailsDiv .transactionDetails>div:last-child {
     text-align: right;
 }
+
+@media screen and (max-width: 640px) {
+    .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter {
+        text-align: left;
+    }
+}
